@@ -1,0 +1,13 @@
+<div>
+    <form class="well">
+        <label>Name</label>
+        <input type="text" name="name" ng-model="newcontact.name" /><br>
+        <label>Email</label>
+        <input type="text" name="email" ng-model="newcontact.email" /><br>
+        <label>Phone</label>
+        <input type="text" name="phone" ng-model="newcontact.phone" /><br>
+        <br/>
+        <input type="hidden" ng-model="newcontact.id" /><br>
+        <input type="button" value="Save" ng-click="saveContact()" class="btn btn-primary" />
+    </form>
+</div>

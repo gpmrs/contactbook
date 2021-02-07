@@ -1,0 +1,25 @@
+{
+  "name": "angularjswebapp",
+  "description": "angularjs web app",
+  "main": "app.js",
+  "authors": [
+    "gpmrs <giovannapmr@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.8.2",
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "angular-route": "^1.8.2"
+  }
+}

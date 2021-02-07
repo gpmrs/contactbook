@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" ng-app="webApp">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>angularjs webapp</title>
+        <link rel="stylesheet" href="src/style.css">
+    </head>
+
+    <body>
+    <div ng-include="'app/templates/navbar.html'"></div>
+
+        <div class="container" ng-controller="addController">
+            <div ng-view></div>
+        </div>
+
+        <script src="src/libs.js"></script>
+        <script src="src/app.js"></script>
+        <script src="src/template.js"></script>
+
+    </body>
+</html>
